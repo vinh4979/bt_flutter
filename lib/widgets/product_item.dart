@@ -18,7 +18,6 @@ class ProductItem extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       child: Row(
         children: [
-          // Hình vuông placeholder
           Container(
             width: 64,
             height: 64,

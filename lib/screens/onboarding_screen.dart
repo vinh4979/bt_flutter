@@ -16,7 +16,7 @@ class OnboardingScreen extends StatelessWidget {
           ClipPath(
             clipper: TopClipper(),
             child: Container(
-              height: size.height * 0.55, // Không vượt quá chiều cao
+              height: size.height * 0.55,
               width: double.infinity,
               color: Colors.green[600],
             ),
@@ -26,7 +26,7 @@ class OnboardingScreen extends StatelessWidget {
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
-              height: size.height * 0.48, // Không quá cao
+              height: size.height * 0.48,
               width: double.infinity,
               padding: const EdgeInsets.all(32),
               decoration: const BoxDecoration(
@@ -34,7 +34,7 @@ class OnboardingScreen extends StatelessWidget {
                 borderRadius: BorderRadius.vertical(top: Radius.circular(32)),
               ),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center, // Căn giữa dọc
+                mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   const Text(
