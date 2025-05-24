@@ -1,9 +1,10 @@
+import 'package:bt_flutter/screens/shoe_store_screen.dart';
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
-import 'screens/onboarding_screen.dart';
-import 'screens/product_list_screen.dart';
-import 'screens/dashboard_screen.dart';
-import 'screens/explore_screen.dart';
+// import 'screens/home_screen.dart';
+// import 'screens/onboarding_screen.dart';
+// import 'screens/product_list_screen.dart';
+// import 'screens/dashboard_screen.dart';
+// import 'screens/explore_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,11 +22,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      // home: const HomeScreen(),
       // home: const OnboardingScreen(),
       // home: const ProductListScreen(),
       // home: DashboardScreen(),
       // home: ExploreScreen(),
+      home: const ShoeStoreScreen(),
     );
   }
 }
